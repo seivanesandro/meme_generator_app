@@ -54,25 +54,25 @@ media css
 */
 
 const responsivePoints = {
-    mobileP: '320px',
-    mobileM: '375px',
-    mobileG: '425px',
-    iphone14: '430px',
-    tablet: '768px',
-    portatil: '1024px',
-    portatilS: '1230px',
-    portatilL: '1440px',
-    fourk: '1760px'
+  mobileP: "320px",
+  mobileM: "375px",
+  mobileG: "425px",
+  iphone14: "430px",
+  tablet: "768px",
+  portatil: "1024px",
+  portatilS: "1230px",
+  portatilL: "1440px",
+  fourk: "1760px",
 };
 
 export const devices = {
-    mobileP: `( max-width: ${responsivePoints.mobileP} )`,
-    mobileM: `( max-width: ${responsivePoints.mobileM} )`,
-    mobileG: `( max-width: ${responsivePoints.mobileG} )`,
-    iphone14: `( max-width: ${responsivePoints.iphone14} )`,
-    tablet: `( max-width: ${responsivePoints.tablet} )`,
-    portatilS: `( max-width: ${responsivePoints.portatilS} )`,
-    portatil: `( max-width: ${responsivePoints.portatil} )`,
-    portatilL: `( max-width: ${responsivePoints.portatilL} )`,
-    fourk: `( max-width: ${responsivePoints.fourk} )`
+  mobileP: `( max-width: ${responsivePoints.mobileP} )`,
+  mobileM: `( max-width: ${responsivePoints.mobileM} )`,
+  mobileG: `( max-width: ${responsivePoints.mobileG} )`,
+  iphone14: `( max-width: ${responsivePoints.iphone14} )`,
+  tablet: `( max-width: ${responsivePoints.tablet} )`,
+  portatilS: `( max-width: ${responsivePoints.portatilS} )`,
+  portatil: `( max-width: ${responsivePoints.portatil} )`,
+  portatilL: `( max-width: ${responsivePoints.portatilL} )`,
+  fourk: `( max-width: ${responsivePoints.fourk} )`,
 };

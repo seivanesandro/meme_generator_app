@@ -1,11 +1,13 @@
+//import NavBar from "./components/navbar/NavBar";
 
+import GetMeme from "./components/meme/GetMeme";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-     <h1>MEME Generator app</h1>
+      <GetMeme />
     </div>
   );
-}
+};
 
 export default App;
