@@ -2,7 +2,7 @@ import NavBar from "./components/navbar/NavBar";
 
 import GetMeme from "./components/meme/GetMeme";
 import styled from "styled-components";
-import { devices } from "./utils/constantes";
+//import { devices } from "./utils/constantes";
 
 const ContainerApp = styled.div`
   &.App {
