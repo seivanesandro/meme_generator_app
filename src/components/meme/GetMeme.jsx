@@ -68,14 +68,61 @@ const ContainerComponents = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 150px;
+  margin-right: 122px;
+
+  @media only screen and (${devices.fourk}) {
+    margin-right: 100px;
+  }
+  @media only screen and (${devices.portatilL}) {
+    margin-right: 58px;
+  }
+  @media only screen and (${devices.portatil}) {
+    margin-right: 60px;
+  }
+  @media only screen and (${devices.tablet}) {
+    margin-right: 85px;
+  }
+  @media only screen and (${devices.iphone14}) {
+    margin-right: 60px;
+  }
+  @media only screen and (${devices.mobileG}) {
+    margin-right: 60px;
+  }
+  @media only screen and (${devices.mobileM}) {
+    margin-right: 48px;
+  }
+  @media only screen and (${devices.mobileP}) {
+    margin-right: 7px;
+  }
 `;
 
 const ErrorStyle = styled.p`
   color: red;
-  text-align: center;
+  text-align: center !important;
   text-transform: uppercase;
   text-shadow: 0 0 0.1rem black;
+  margin-right: 7px;
+  font-size: 1.1rem;
+
+  @media only screen and (${devices.tablet}) {
+    margin-right: 5px;
+  }
+  @media only screen and (${devices.iphone14}) {
+    margin-right: 6px;
+    font-size: 0.8rem;
+  }
+  @media only screen and (${devices.mobileG}) {
+    margin-right: 6px;
+    font-size: 0.8rem;
+  }
+  @media only screen and (${devices.mobileM}) {
+    margin-right: 6px;
+    font-size: 0.7rem;
+  }
+  @media only screen and (${devices.mobileP}) {
+    margin-right: 6px;
+    font-size: 0.8rem;
+  }
 `;
 
 const apiUrl = process.env.REACT_APP_API_URL;
@@ -99,7 +146,6 @@ const GetMeme = (props) => {
 
         setMemes(data.memes);
       } catch (error) {
-        console.error("You are offline: ", error);
         setError(error);
       } finally {
         setIsLoading(false);
