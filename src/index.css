@@ -14,11 +14,56 @@ code {
     monospace;
 }
 
-
-.button-reload{
+.button-reload {
   cursor: pointer;
+}
+
+.button-reload:focus {
+  cursor: pointer;
+  color: #99f2c8;
+}
+.button-reload:active {
+  cursor: pointer;
+  color: #99f2c8;
 }
 .button-reload:hover {
   cursor: pointer;
   color: #99f2c8;
+}
+
+
+.btn-style {
+  width: 15rem !important;
+  border: none !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #99f2c8 !important;
+  color: #333 !important;
+  font-weight: 600 !important;
+  transition: 0.5s linear !important;
+}
+
+.btn-style:focus {
+  outline: #333 !important;
+  box-shadow: 0 0 0.2rem #000000 !important;
+  color: #333 !important;
+  background: #4DEFA3 !important;
+  transition: 0.5s linear !important;
+}
+.btn-style:active {
+  outline: #333 !important;
+  box-shadow: 0 0 0.2rem #000000 !important;
+  color: #333 !important;
+  background: #4DEFA3 !important;
+  transition: 0.5s linear !important;
+}
+
+.btn-style:hover {
+  outline: #333 !important;
+  color: #333 !important;
+  background: #4DEFA3 !important;
+  transition: 0.5s linear !important;
 }
