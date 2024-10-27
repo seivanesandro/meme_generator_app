@@ -30,7 +30,7 @@ const StyledFooter = styled.p`
 const Footer = props => {
   return <>
     <StyledFooter className='footer'>
-        copyrights Sandro seivanne 2024
+        copyrights Sandro seivane 2024
     </StyledFooter>
   </>;
 }
